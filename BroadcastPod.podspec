@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BroadcastPod'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This repo consist of the code for screensharing on ios.'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
