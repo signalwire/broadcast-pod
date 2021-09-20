@@ -7,11 +7,12 @@ target 'BroadCastExtension' do
   #use_frameworks!
 
   # Pods for Broadcast Extension
-  pod 'BroadcastPod', :path => '../'
+  pod 'BroadcastPod', '~> 1.0.0'
+  
 end
 
 target 'BroadcastPod_Example' do
-  pod 'BroadcastPod', :path => '../'
+  pod 'BroadcastPod', '~> 1.0.0'
 
   target 'BroadcastPod_Tests' do
     inherit! :search_paths
