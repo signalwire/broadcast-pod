@@ -19,9 +19,11 @@ DerivedData
 *.hmap
 *.ipa
 
+Example/
 Example/BroadcastPod.xcworkspace/
 Example/Podfile.lock
 Example/Pods/
+
 
 # Bundler
 .bundle
