@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Signalwire' => 'zeeshan.saiyed@eocsmob.com'}
-  s.source           = { :git => 'https://github.com/zeeshanecosmob/signalwire/broadcast-pod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://zeeshanecosmob@github.com/signalwire/broadcast-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.1'
