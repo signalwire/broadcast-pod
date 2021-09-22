@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BroadcastPod'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'This repo consist of the code for screensharing on ios.'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'This repo consist of the code for screensharing on ios.'
                        DESC
 
-  s.homepage         = 'https://github.com/zeeshanecosmob/broadcast-pod'
+  s.homepage         = 'https://github.com/signalwire/broadcast-pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zeeshanecosmob' => 'zeeshan.saiyed@ecosmob.com' }
-  s.source           = { :git => 'https://github.com/zeeshanecosmob/broadcast-pod.git', :tag => s.version.to_s }
+  s.author           = { 'Signalwire' => 'zeeshan.saiyed@eocsmob.com'}
+  s.source           = { :git => 'https://github.com/zeeshanecosmob/signalwire/broadcast-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.1'
